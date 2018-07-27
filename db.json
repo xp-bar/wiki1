@@ -1,0 +1,49 @@
+{
+  "posts": [
+      {
+          "id": 1,
+          "title": "JS",
+          "parent_id": null,
+          "type": "post",
+          "author": "raczmedia",
+          "content": null
+      },
+      {
+          "id": 2,
+          "title": "Vue",
+          "parent_id": 1,
+          "type": "post",
+          "author": "raczmedia",
+          "content": null
+      },
+      {
+          "id": 3,
+          "title": "Vue Router",
+          "parent_id": 2,
+          "type": "post",
+          "author": "raczmedia",
+          "content": null
+      },
+      {
+          "id": 3,
+          "title": "Vueify",
+          "parent_id": 2,
+          "type": "post",
+          "author": "nickster",
+          "content": null
+      }
+  ],
+  "users": [
+        {
+            "name": "Joe R",
+            "gituser": "raczmedia",
+            "image": "joeavatar.png"
+        },
+        {
+            "nick": "Nick the dude",
+            "gituser": "nickster",
+            "image": "nickster.png"
+        }
+  ],
+  "count": 0
+}
