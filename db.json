@@ -6,7 +6,7 @@
           "parent_id": null,
           "type": "post",
           "author": "raczmedia",
-          "content": null
+          "content": "hello!!!"
       },
       {
           "id": 2,
@@ -22,7 +22,7 @@
           "parent_id": 2,
           "type": "post",
           "author": "raczmedia",
-          "content": null
+          "content": "random"
       },
       {
           "id": 3,
