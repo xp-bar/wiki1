@@ -1,49 +1,49 @@
 {
   "posts": [
-      {
-          "id": 1,
-          "title": "JS",
-          "parent_id": null,
-          "type": "post",
-          "author": "raczmedia",
-          "content": "hello!!!"
-      },
-      {
-          "id": 2,
-          "title": "Vue",
-          "parent_id": 1,
-          "type": "post",
-          "author": "raczmedia",
-          "content": null
-      },
-      {
-          "id": 3,
-          "title": "Vue Router",
-          "parent_id": 2,
-          "type": "post",
-          "author": "raczmedia",
-          "content": "random"
-      },
-      {
-          "id": 4,
-          "title": "Vueify",
-          "parent_id": 2,
-          "type": "post",
-          "author": "nickster",
-          "content": null
-      }
+    {
+      "slug": "js",
+      "title": "JS",
+      "parent_slug": "root",
+      "type": "post",
+      "author": "raczmedia",
+      "content": "hello!!!"
+    },
+    {
+      "slug": "vue",
+      "title": "Vue",
+      "parent_slug": "js",
+      "type": "post",
+      "author": "raczmedia",
+      "content": null
+    },
+    {
+      "slug": "vue-router",
+      "title": "Vue Router",
+      "parent_slug": "vue",
+      "type": "post",
+      "author": "raczmedia",
+      "content": "random"
+    },
+    {
+      "slug": "vueify",
+      "title": "Vueify",
+      "parent_slug": "vue",
+      "type": "post",
+      "author": "nickster",
+      "content": null
+    }
   ],
   "users": [
-        {
-            "name": "Joe R",
-            "gituser": "raczmedia",
-            "image": "joeavatar.png"
-        },
-        {
-            "nick": "Nick the dude",
-            "gituser": "nickster",
-            "image": "nickster.png"
-        }
+    {
+      "name": "Joe R",
+      "gituser": "raczmedia",
+      "image": "joeavatar.png"
+    },
+    {
+      "name": "Nick the dude",
+      "gituser": "nickster",
+      "image": "nickster.png"
+    }
   ],
   "count": 0
 }
